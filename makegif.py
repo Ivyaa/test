@@ -23,3 +23,5 @@ with imageio.get_writer('1202.gif', mode='I') as writer:
         writer.append_data(image)
 
 print("successful")
+
+print("false")
