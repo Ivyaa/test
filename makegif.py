@@ -21,3 +21,5 @@ with imageio.get_writer('1202.gif', mode='I') as writer:
     for filename in filenames:
         image = imageio.imread(filename)
         writer.append_data(image)
+
+print("successful")
