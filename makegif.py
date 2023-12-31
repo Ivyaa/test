@@ -25,3 +25,5 @@ with imageio.get_writer('1202.gif', mode='I') as writer:
 print("successful")
 
 print("false")
+
+print("pull")
